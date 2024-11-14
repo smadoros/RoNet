@@ -3,15 +3,14 @@
 Copyright 2022-2024. Daero All rights reserved.
 Do not copy, modify, or distribute goods without permission.
 
-1) VS2022(v143), std::C++20, x64(Debug, Release)
+## Dev
+VS2022(v143), std::C++20, x64(Debug, Release)
 
-2) 내부 라이브러리
+## Library
 - NetProtobuf.lib  : 패킷, 프로토 파일(*.proto), 프로토버프 시리얼라이저
 - NetCommonLib.lib : 서버, 클라이언트 공용 기능
 - NetClientLib.lib : 클라이언트 코어
 - NetServerLib.lib : 서버 코어 (NetClientLib를 참조해서 LanClient를 생성, 관리)
-
-3) 외부 라이브러리
 - JsonCPpp.Windows.1.9.2
 - Protobuf 3
 
