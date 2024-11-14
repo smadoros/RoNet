@@ -1,0 +1,23 @@
+{
+	"Common" : 
+	{
+		"Flavor" : "Echo",
+		"Group" : "Dev",
+		"LanClient" : 
+		[
+			{
+				"Count" : 0,
+				"Flavor" : "",
+				"IP" : "0.0.0.0",
+				"Port" : 0
+			}
+		],
+		"Port" : 15000
+	},
+	"Extend" : 
+	{
+		"ExValue1" : 0,
+		"ExValue2" : 0,
+		"ExValue3" : 0
+	}
+}

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\stdafx.cpp">
+      <Filter>_PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ServerEventHandler.cpp">
+      <Filter>Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ServerBackgroudWork.cpp">
+      <Filter>BackgroundWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ServerPacketHandler.cpp">
+      <Filter>Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ServerConfigExtend.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PacketDispatch.cpp">
+      <Filter>Dispatch</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\stdafx.h">
+      <Filter>_PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ServerEventHandler.h">
+      <Filter>Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ServerBackgroudWork.h">
+      <Filter>BackgroundWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ServerPacketHandler.h">
+      <Filter>Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ServerConfigExtend.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PacketDispatch.h">
+      <Filter>Dispatch</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="_PCH">
+      <UniqueIdentifier>{9e0cc67c-aca7-49b9-8947-6c2a8d7a35c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BackgroundWork">
+      <UniqueIdentifier>{1db4e1a9-be96-4586-89e7-a5e2caa38b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Handler">
+      <UniqueIdentifier>{73db9d8b-e831-47a5-8d37-959f2283b9c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{ceddf358-a0f4-4375-b7a4-0979308d18ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dispatch">
+      <UniqueIdentifier>{1eaac6a7-c1b1-4dc3-9126-ae1785562efc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

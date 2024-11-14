@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package COMMON_PACKET;
+
+option csharp_namespace = "Google.Protobuf.COMMON_PACKET";
+
+enum COMMON_PROTOCOL
+{
+	CS_CHAT = 0;
+	SC_CHAT = 1;
+}
+
+message PB_CS_CHAT
+{
+	string message = 1;
+}
+
+message PB_SC_CHAT
+{
+	string message = 1;
+}

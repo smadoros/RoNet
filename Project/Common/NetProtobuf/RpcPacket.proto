@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package RPC_PACKET;
+
+option csharp_namespace = "Google.Protobuf.RPC_PACKET";
+
+enum RPC_PROTOCOL
+{
+	CS_NOTIFY = 0;
+	SC_NOTIFY = 1;
+}
+
+message PB_CS_NOTIFY
+{
+	string message = 1;
+}
+
+message PB_SC_NOTIFY
+{
+	string message = 1;
+}
