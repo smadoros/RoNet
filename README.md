@@ -13,7 +13,7 @@ VS2022(v143), std::C++20, x64(Debug, Release)
 | NetCommonLib.lib | 서버, 클라이언트 공용 기능 |
 | NetClientLib.lib | 클라이언트 코어 |
 | NetServerLib.lib | 서버 코어 (NetClientLib를 참조해서 LanClient를 생성, 관리) |
-| JsonCPpp.Windows | v1.9.2 |
+| JsonCpp.Windows | v1.9.2 |
 | Protobuf3        | Google ProtoBuffer |
 
 ### Server
